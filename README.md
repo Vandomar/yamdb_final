@@ -1,4 +1,4 @@
-https://github.com/Vandomar/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+https://github.com/Vandomar/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?
 # Проект YaMDb
 Учебный проект для изучения работы CI CD (Яндекс Практикум)
 
