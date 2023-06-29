@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 https://github.com/Vandomar/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
 # Описание
 
@@ -8,9 +9,14 @@ https://github.com/Vandomar/yamdb_final/actions/workflows/yamdb_workflow.yml/bad
 В этом спринте мы работали с облачным сервисом GitHub Actions.
 
 GitHub Actions — это облачный сервис, инструмент для автоматизации процессов тестирования и деплоя проектов. 
+=======
+![](https://github.com/Vandomar/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+# Проект YaMDb
+Учебный проект для изучения работы CI CD (Яндекс Практикум)
+>>>>>>> 206320adca5c719d6fb7bf11ee04196d6b7ab409
 
 Server IP:
-158.160.73.116
+62.84.123.252
 # Описание работы проекта
 Данный проект является проектом учебного курса Яндекс Практикум по специальности Python-разработчик.
 **AUTH**: аутентификация.
@@ -27,6 +33,7 @@ Server IP:
 
 **COMMENTS**: комментарии к отзывам. Комментарий привязан к определённому отзыву.
 
+<<<<<<< HEAD
 ## Описание Workflow
 ### Workflow состоит из четырёх шагов:
 #### tests
@@ -41,6 +48,8 @@ Server IP:
 
 
 
+=======
+>>>>>>> 206320adca5c719d6fb7bf11ee04196d6b7ab409
 ### Теги для postman:
 Body
 
