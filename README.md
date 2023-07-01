@@ -84,12 +84,13 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 Скопируйте подготовленные файлы:
-`docker-compose.yaml` и `nginx/default.conf` из вашего проекта на сервер в `home/<ваш_username>/docker-compose.yaml` и `home/<ваш_username>/nginx/default.conf` соответственно.
+'redoc.yaml' `docker-compose.yaml` и `nginx/default.conf` из вашего проекта на сервер в `home/<ваш_username>/docker-compose.yaml` и `home/<ваш_username>/nginx/default.conf` соответственно.
 Введите команду из корневой папки проекта:
 
 ```
 scp [Путь к файлу]docker-compose.yml <username>@<host>:/home/<username>/docker-compose.yml
 scp -r [Путь к файлу]nginx/ <username>@<host>:/home/<username>/
+scp [Путь к файлу]redoc.yaml <username>@<host>:/home/<username>/docker-compose.yml
 ```
 
 Для работы с Workflow добавьте в Secrets GitHub переменные окружения для работы:
@@ -119,6 +120,7 @@ TELEGRAM_TOKEN=<токен вашего бота>
 Зайдите на боевой сервер и выполните команды:
 
 ```
+docker cp redoc.yaml <имя_контейнера_web>:/app/static
 sudo docker-compose exec web python manage.py makemigrations --noinput # Создаем и применяем миграции
 sudo docker-compose exec web python manage.py migrate --noinput
 ```
