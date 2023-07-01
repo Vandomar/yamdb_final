@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-https://github.com/Vandomar/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+
 # Описание
 
 Учебный проект 16 спринта курса Python-разработчик в Яндекс.Практикум
@@ -16,7 +15,7 @@ GitHub Actions — это облачный сервис, инструмент д
 >>>>>>> 206320adca5c719d6fb7bf11ee04196d6b7ab409
 
 Server IP:
-62.84.123.252
+51.250.97.96
 # Описание работы проекта
 Данный проект является проектом учебного курса Яндекс Практикум по специальности Python-разработчик.
 **AUTH**: аутентификация.
@@ -47,9 +46,6 @@ Server IP:
 
 
 
-
-=======
->>>>>>> 206320adca5c719d6fb7bf11ee04196d6b7ab409
 ### Теги для postman:
 Body
 
@@ -69,12 +65,13 @@ Postgres
 Gunicorn
 Nginx
 Workflow
+```
 
 # Установка
 
 Клонировать репозиторий на локальную машину:
 
-```
+
 https://github.com/vandomar/yamdb_final.git
 ```
 
